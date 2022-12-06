@@ -1,0 +1,13 @@
+server:
+  port: 9091
+  servlet:
+    context-path: /api/v1
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:test_db;MODE=PostgreSQL
+    username: admin123
+    password: password
+  h2:
+    console:
+      enabled:
